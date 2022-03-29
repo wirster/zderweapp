@@ -3,7 +3,7 @@
 export default {
     namespace: 'users',
     state: {
-      title: 'Hello World'
+      title: '整点儿GIS'
     },
   
     effects: {},

@@ -5,8 +5,10 @@ import { Provider } from 'react-redux'
 import 'taro-ui/dist/style/index.scss'
 import dva from './utils/dva'
 import models from './models'
-import "taro-ui/dist/style/index.scss";
+// import "taro-ui/dist/style/index.scss";
 import './app.less'
+import './style/custom-theme.scss'
+import './style/taro-ui.css'
 
 
 const dvaApp = dva.createApp({
